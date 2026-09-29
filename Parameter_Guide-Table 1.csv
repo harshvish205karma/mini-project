@@ -1,0 +1,13 @@
+Variable,Meaning,Unit,Role,Basis / note
+X1,Drawing speed,m/s,Input,Source examples: 700 m/min ≈ 11.67 m/s (2009 steel) and 11 m/s (2023 steel).
+X2,Initial wire temperature,°C,Input,Source examples include 47 °C initial wire temperature.
+X3,Reduction ratio / area reduction,%,Input,Steel examples span about 9–32% per pass; copper schedule reports 31–40%.
+X4,Semi-die angle,degrees,Input,"Steel examples: 5.5° and 6°; copper paper uses 2α=14°, i.e. α=7°."
+X5,Initial material hardness,HV,Input,Not directly reported in the uploaded papers; values in ML_Dataset are synthetic engineering-design values.
+X6,Lubricant type,categorical,Input,Copper paper reports 100% mineral oil; steel examples include dry drawing.
+X7,Number of passes,count,Input,Uploaded examples use 7 passes for copper and 9 passes for steel.
+Y1,Exit temperature,°C,Target,Synthetic target. Source studies show temperature is an important response and report measured/predicted pass temperatures.
+Y2,Drawing stress,MPa,Target,Synthetic target. Copper paper reports analytical/FEM drawing stress.
+Y3,Drawing force,N,Target,Synthetic target. Copper paper reports analytical/FEM drawing force.
+Y4,Damage index,dimensionless,Target,Synthetic target; 2023 steel paper uses a damage criterion and reports damage values.
+Y5,Delamination risk,Low/Moderate/High,Target,Synthetic classification derived from the synthetic damage index; not an experimental label.

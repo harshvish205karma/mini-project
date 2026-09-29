@@ -1,0 +1,5 @@
+Material,Samples,Min_Speed_m_per_s,Max_Speed_m_per_s,Min_Reduction_percent,Max_Reduction_percent,Min_Hardness_HV,Max_Hardness_HV,Avg_Exit_Temp_C
+Aluminium,75,2.032,11.988,10.67,29.75,25.1,98.1,85.4297333333333
+Copper,75,3.308,14.738,15.26,39.99,60.9,128.6,110.355733333333
+High Carbon Steel,75,8.222,11.982,9.39,31.97,301,499.8,159.416266666667
+Mild Steel,75,3.124,9.832,10.17,29.97,120.1,218.7,112.7952

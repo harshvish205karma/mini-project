@@ -1,0 +1,7 @@
+Source_Baseline,Drawing_Speed_m_per_s,Initial_Temperature_C,Reduction_Ratio_percent,Semi_Die_Angle_deg,Initial_Hardness_HV,Lubricant_Type,Number_of_Passes,Notes
+Steel cord – Lee et al. (2009),11.667,47,32.3,5.5,,Dry,9,Final drawing speed 700 m/min; initial wire temperature 47 °C; 9-pass schedule.
+"Steel cord – Lee et al. (2009), pass 9",11.667,47,19.6,5.5,,Dry,9,Pass-9 reduction; semi-die angle 5.5°. Hardness/lubricant type were not reported as dataset inputs.
+Steel cord – Lee et al. (2023),11,47,9.24,6,,Dry,9,9-pass isothermal dry drawing; reported die-exit temperature ~110.71 °C at pass 1.
+"Steel cord – Lee et al. (2023), pass 2",11,60,15.17,6,,Dry,9,Reported die-exit temperature 170.34 °C at pass 2.
+"Copper – Rodríguez-Alabanda et al. (2020), step 1",,,40,7,,Mineral Oil,7,"0.50 → 0.39 mm; reduction ratio 0.40; die included 2α=14°, so semi-angle=7°."
+"Copper – Rodríguez-Alabanda et al. (2020), step 7",,,31,7,,Mineral Oil,7,0.12 → 0.10 mm; reduction ratio 0.31; mineral oil; reported optimum μ=0.127.
